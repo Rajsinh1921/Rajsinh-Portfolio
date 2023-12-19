@@ -53,5 +53,15 @@ footer a {
   color: var(--color-bg);
 }
 
-.footer_socials a:hover {
+/* ------------------ MEDIA QUERIES (SMALL DEVICS) ------------------ */
+
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer_socials {
+    margin-bottom: 2.6rem;
+  }
 }

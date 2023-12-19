@@ -4,7 +4,6 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
 
 const data = [
   {
@@ -49,8 +48,9 @@ function Projects() {
             <div className="projects_item-image">
               <img src={image} alt={title} />
             </div>
-            <h3>{title}</h3>
+
             <div className="project_item-cta">
+              <h3>{title}</h3>
               <a href={github} className="btn" target="_blank">
                 Github
               </a>

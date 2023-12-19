@@ -11,7 +11,7 @@ function HeaderSocials() {
       <a href="https://github.com/Rajsinh1921" target="_blank">
         <FaGithub />
       </a>
-      <a href="rajsinh.chauhan15@gmail.com" target="_blank">
+      <a href="mailto:rajsinh.chauhan15@gmail.com" target="_blank">
         <SiGmail />
       </a>
     </div>
