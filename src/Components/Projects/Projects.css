@@ -32,6 +32,10 @@
   margin-bottom: 1rem;
 }
 
+.projectbtn {
+  margin-right: 1rem;
+}
+
 /*  ------------------ MEDIA QUERIES (MEDIUM DEVICES) ------------------  */
 
 @media screen and (max-width: 1024px) {

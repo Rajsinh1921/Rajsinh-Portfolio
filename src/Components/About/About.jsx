@@ -1,9 +1,7 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
-import { FaAward } from "react-icons/fa6";
-import { RiFoldersFill } from "react-icons/ri";
-import { FiUsers } from "react-icons/fi";
+import ME from "../../assets/me.jpeg";
+
 function About() {
   return (
     <section id="about">
@@ -17,29 +15,16 @@ function About() {
           </div>
         </div>
         <div className="about_content">
-          <div className="about_cards">
-            <article className="about_card">
-              <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>3+ years of Experience</small>
-            </article>
-            <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className="about_card">
-              <RiFoldersFill className="about_icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed</small>
-            </article>
-          </div>
-
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque
-            quisquam nihil eaque iste necessitatibus porro laborum laboriosam,
-            reprehenderit at ducimus mollitia rerum! Porro, commodi repudiandae!
-            Molestiae quis harum error.
+            👋 "Hey, I'm Rajsinh Chauhan, a self-taught Frontend Developer
+            currently learning Backend Development. I specialize in HTML, CSS,
+            and JavaScript, enhancing designs with Bootstrap, Tailwind, and
+            SCSS. On the backend, I manage data with MySQL and build robust
+            applications using Express. Notable projects include a React
+            Blogging Website with Appwrite integration and a simplified React
+            Myntra clone e-commerce platform. From HTML/CSS E-commerce clones to
+            Todo apps using Context API, I'm passionate about crafting impactful
+            digital experiences. Let's build something extraordinary together!"
           </p>
 
           <a href="#contact" className="btn btn-primary">
